@@ -27,11 +27,36 @@ namespace TextRPG.Scenes
 
         public override void Render()
         {
-            Console.WriteLine("┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓");
-            Console.WriteLine("┃ 경일게임아카데미탈출 사건 (부제) 희망이 보이지 않는다 ┃");
-            Console.WriteLine("┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛");
+            Console.WriteLine(" _____                                   __                         ");
+            Console.WriteLine("|  ___|                                 / _|                         ");
+            Console.WriteLine("| |__   ___   ___   __ _  _ __    ___  | |_  _ __   ___   _ __ ___   ");
+            Console.WriteLine("|  __| / __| / __| / _` || '_ \\  / _ \\ |  _|| '__| / _ \\ | '_ ` _ \\  ");
+            Console.WriteLine("| |___ \\__ \\| (__ | (_| || |_) ||  __/ | |  | |   | (_) || | | | | | ");
+            Console.WriteLine("\\____/ |___/ \\___| \\__,_|| .__/  \\___| |_|  |_|    \\___/ |_| |_| |_|");
+            Console.WriteLine("                         | |                                         ");
+            Console.WriteLine("                         |_|                                         ");
             Console.WriteLine();
-        }
+            Console.WriteLine(" _   __                             _  _      ___                    _                         ");
+            Console.WriteLine("| | / /                            (_)| |    / _ \\                  | |                        ");
+            Console.WriteLine("| |/ /  _   _  _   _  _ __    __ _  _ | |   / /_\\ \\  ___   __ _   __| |  ___  _ __ ___   _   _ ");
+            Console.WriteLine("|    \\ | | | || | | || '_ \\  / _` || || |   |  _  | / __| / _` | / _` | / _ \\| '_ ` _ \\ | | | |");
+            Console.WriteLine("| |\\  \\| |_| || |_| || | | || (_| || || |   | | | || (__ | (_| || (_| ||  __/| | | | | || |_| |");
+            Console.WriteLine("\\_| \\_/ \\__, | \\__,_||_| |_| \\__, ||_||_|   \\_| |_/ \\___| \\__,_| \\__,_| \\___||_| |_| |_| \\__, |");
+            Console.WriteLine("         __/ |                __/ |                                                       __/ |");
+            Console.WriteLine("        |___/                |___/                                                       |___/ ");
+
+
+
+
+
+
+
+
+
+
+
+
+        } // 오프닝 타이틀
 
         public override void Result() { }
 

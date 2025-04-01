@@ -13,5 +13,7 @@ namespace TextRPG
 
         private int speed;
         public int Speed { get { return speed; } set { speed = value; } }
+
+        public int money = 0;
     }
 }
