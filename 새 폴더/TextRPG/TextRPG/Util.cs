@@ -8,7 +8,7 @@ namespace TextRPG
 {
     public class Util
     {
-        public static void Print(string context, ConsoleColor textColor = ConsoleColor.White, int delay = 0)
+        public static void Print(string context, ConsoleColor textColor = ConsoleColor.White, int delay = 0) //ms임 1000=1초
         {
             Console.ForegroundColor = textColor;
             Console.WriteLine(context);

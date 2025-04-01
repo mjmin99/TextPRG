@@ -20,7 +20,7 @@ namespace TextRPG.Scenes
             switch (input)
             {
                 case ConsoleKey.D1:
-                    Game.ChangeScene("Town");
+                    Game.ChangeScene("CounselingRoom");
                     break;
             }
         }
