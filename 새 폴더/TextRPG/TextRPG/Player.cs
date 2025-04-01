@@ -20,6 +20,16 @@ namespace TextRPG
         private int intel;
         public int Intel { get { return intel; } set { intel = value; } } 
 
+        //돈
         public int money;
+
+        public Inventory inventory { get; private set; }
+
+        public Player()
+        { 
+            inventory = new Inventory();
+        }
+
+
     }
 }
